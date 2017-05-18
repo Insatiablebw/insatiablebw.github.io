@@ -1,0 +1,31 @@
+body {
+	font-family: verdana;
+	background-color: black;
+	text-align: center;
+}
+
+.main {
+	font-weight: normal;
+	font-size: 50px;
+	color: white;
+}
+
+.app {
+	font-size: 16px;
+	color: #7FFFD4;
+}
+
+.travel {
+	font-weight: 300
+	font-size: 32px;
+}
+
+.memory {
+	font-size: 21px;
+	color: gray;
+}
+
+.cr {
+	text-align: right;
+	color: gray;
+}
