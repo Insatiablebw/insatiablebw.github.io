@@ -1,0 +1,168 @@
+body {
+	background-color: black;
+	color: seashell;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+header {
+  width:	100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+}
+
+.logo {
+	size: 50px;
+}
+
+header a {
+	font-size: 22px;
+	opacity: 0.9;
+	padding-right: 40px;
+	color: seashell;
+	text-decoration: underline;
+}
+
+nav {
+text-align: right;
+flex-grow: 1;
+}
+
+.mission-container {
+	height: 900px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100px;
+	}
+
+#our-mission {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	width: 1200px;
+	height: 700px;
+	padding-top: 375px;
+	background-repeat: no-repeat;
+}
+
+.content #our-mission {
+	margin: 100px;
+	width: 100%;
+	text-align: center;
+	height: 700px;
+	padding-top: 70Spx;
+}
+
+.Mission {
+	height: 700px;
+	width: 1200px;
+}
+
+h2, h3 h4 {
+	margin: 0px;
+	padding: 10px;
+
+}
+
+h2 {
+	font-size: 2.5em;
+	display: block;
+	font-weight: bold;
+		
+}	
+
+h4 {
+	font-size: 1.33em;
+	display: block;
+	font-weight: bold;
+	
+}
+
+div {
+	display: block
+}
+
+.month-container {
+	width: 1000px;
+	margin-left: 200px;
+}
+
+.month-container #month {
+  margin: auto;
+  font-weight: bold;
+}
+
+.item-contents #item {
+	display: inline-block;
+  flex-wrap: wrap;
+  margin: 10px;
+ }
+
+.month-container img {
+    padding: 5px;
+    height: 200px;
+    width: 300px;
+}
+
+#item span {
+	display: block;
+}
+
+#loc-head {
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);	
+	height: 700px;
+	padding-top: 70px;
+	opacity: 1.0;
+	background-repeat: no-repeat;
+	align-items: center;
+	background-position: center;
+}
+
+#loc-head .loc-container {
+	opacity: 1.0;	
+    margin: auto;
+    width: 1100px;
+    opacity: 1.0;
+}
+
+.loc-container.locations {
+    padding-top: 5px;
+
+}
+
+.locations {
+	
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loc-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 1.0;
+    
+    
+}     
+
+footer {
+	text-align: left;
+}
